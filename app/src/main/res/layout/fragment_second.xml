@@ -12,16 +12,42 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/button_second"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+        android:layout_width="116dp"
+        android:layout_height="66dp"
         android:text="@string/previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/sound_spinner"
+        android:layout_width="286dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="Sons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_second" />
+
+    <Button
+        android:id="@+id/buttonSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Tocar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sound_spinner" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

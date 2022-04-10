@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="second_fragment_label">Sons do Ratinho</string>
     <string name="third_fragment_label">Third Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
@@ -12,4 +12,11 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_third_fragment">Hello third fragment</string>
+    <string-array name="sounds">
+        <item>Iha</item>
+        <item>Não é o pai</item>
+        <item>Rapaz</item>
+        <item>Ratinho</item>
+        <item>Uepa</item>
+    </string-array>
 </resources>

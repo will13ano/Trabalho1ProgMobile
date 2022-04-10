@@ -1,11 +1,13 @@
 package com.example.trabalho1progmobile;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.provider.MediaStore;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -17,6 +19,7 @@ import com.example.trabalho1progmobile.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
